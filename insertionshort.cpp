@@ -22,7 +22,7 @@ void input ()
         }
     }
     cout << endl; // Membuat jarak per baris program
-    cout << "=======================" << endl; // Membuat tampilan susuna data elemen array
+    cout << "=======================" << endl; // Membuat tampilan susunan data elemen array
     cout << "Masukan element array" << endl;
     cout << "=======================" endl;
 
@@ -31,4 +31,12 @@ void input ()
         cout << "data ke-" << (i + 1) << ": "; // Masukan atau menginputkan nilai data n
         cin >> arr[i]; // Menyimpan nilai data n kedalam array arr
     }
+}
+
+void insertionshort()
+{ // Procedure insertionshort
+
+    int temp; // Membuat variable data temporer atau menyimpan sementara 
+    int j, i; // Membuat variable j sebagai penanda 
+
 }
